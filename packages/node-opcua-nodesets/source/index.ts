@@ -53,8 +53,10 @@ const woodWorkingNodeSetFilename = constructNodesetFilename("Opc.Ua.Woodworking.
 const eumaboisNodeSetFilename = constructNodesetFilename("Opc.Ua.Eumabois.NodeSet2.xml");
 const glassNodeSetFilename = constructNodesetFilename("Opc.Ua.Glass.NodeSet2.xml");
 const tighteningNodeSetFilename = constructNodesetFilename("Opc.Ua.Ijt.Tightening.NodeSet2.xml")
-const iolinkNodeSetFilename = constructNodesetFilename("Opc.Ua.IoLink.NodeSet2.xml");
-const iolinkIODDNodeSetFilename = constructNodesetFilename("Opc.Ua.IoLinkIODD.NodeSet2.xml");
+const iolinkNodeSetFilename = constructNodesetFilename("Opc.Ua.IOLink.NodeSet2.xml");
+const iolinkIODDNodeSetFilename = constructNodesetFilename("Opc.Ua.IOLinkIODD.NodeSet2.xml");
+const irdiNodeSetFilename = constructNodesetFilename("Opc.Ua.IRDI.NodeSet2.xml");
+const padimNodeSetFilename = constructNodesetFilename("Opc.Ua.PADIM.NodeSet2.xml");
 
 export const nodesets = {
     adi: adiNodeSetFilename,
@@ -91,8 +93,12 @@ export const nodesets = {
 
     tightening: tighteningNodeSetFilename,
 
-    iolink: iolinkNodeSetFilename, 
-    iolinkIODD: iolinkIODDNodeSetFilename
+    iolink: iolinkNodeSetFilename,
+    iolinkIODD: iolinkIODDNodeSetFilename,
+
+    irdi: irdiNodeSetFilename,
+
+    padim: padimNodeSetFilename,
 };
 
 function makeDeprecated(id: string, newName: keyof typeof nodesets) {
