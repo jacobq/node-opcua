@@ -1,5 +1,5 @@
 {
-    "name": "node-opcua-transport",
+    "name": "@jacobq/node-opcua-transport",
     "version": "2.97.0",
     "description": "pure nodejs OPCUA SDK - module -transport",
     "main": "./dist/source/index.js",
@@ -13,17 +13,17 @@
     },
     "dependencies": {
         "chalk": "4.1.2",
-        "node-opcua-assert": "2.88.0",
-        "node-opcua-basic-types": "2.97.0",
-        "node-opcua-binary-stream": "2.90.1",
-        "node-opcua-buffer-utils": "2.90.1",
-        "node-opcua-chunkmanager": "2.97.0",
-        "node-opcua-debug": "2.90.1",
-        "node-opcua-factory": "2.97.0",
-        "node-opcua-object-registry": "2.90.1",
-        "node-opcua-packet-assembler": "2.90.1",
-        "node-opcua-status-code": "2.90.1",
-        "node-opcua-utils": "2.90.1"
+        "@jacobq/node-opcua-assert": "2.88.0",
+        "@jacobq/node-opcua-basic-types": "2.97.0",
+        "@jacobq/node-opcua-binary-stream": "2.90.1",
+        "@jacobq/node-opcua-buffer-utils": "2.90.1",
+        "@jacobq/node-opcua-chunkmanager": "2.97.0",
+        "@jacobq/node-opcua-debug": "2.90.1",
+        "@jacobq/node-opcua-factory": "2.97.0",
+        "@jacobq/node-opcua-object-registry": "2.90.1",
+        "@jacobq/node-opcua-packet-assembler": "2.90.1",
+        "@jacobq/node-opcua-status-code": "2.90.1",
+        "@jacobq/node-opcua-utils": "2.90.1"
     },
     "devDependencies": {
         "should": "^13.2.3",

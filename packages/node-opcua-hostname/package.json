@@ -1,5 +1,5 @@
 {
-    "name": "node-opcua-hostname",
+    "name": "@jacobq/node-opcua-hostname",
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
     "version": "2.88.0",

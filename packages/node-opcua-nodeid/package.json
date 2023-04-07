@@ -1,5 +1,5 @@
 {
-    "name": "node-opcua-nodeid",
+    "name": "@jacobq/node-opcua-nodeid",
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
     "version": "2.97.0",
@@ -11,13 +11,13 @@
         "test": "mocha"
     },
     "dependencies": {
-        "node-opcua-assert": "2.88.0",
-        "node-opcua-constants": "2.88.0",
-        "node-opcua-guid": "2.88.0"
+        "@jacobq/node-opcua-assert": "2.88.0",
+        "@jacobq/node-opcua-constants": "2.88.0",
+        "@jacobq/node-opcua-guid": "2.88.0"
     },
     "devDependencies": {
-        "node-opcua-benchmarker": "2.90.1",
-        "node-opcua-debug": "2.90.1",
+        "@jacobq/node-opcua-benchmarker": "2.90.1",
+        "@jacobq/node-opcua-debug": "2.90.1",
         "should": "^13.2.3"
     },
     "author": "Etienne Rossignon",

@@ -1,5 +1,5 @@
 {
-    "name": "node-opcua-data-access",
+    "name": "@jacobq/node-opcua-data-access",
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
     "version": "2.97.0",
@@ -12,11 +12,11 @@
         "format": "prettier --write source test"
     },
     "dependencies": {
-        "node-opcua-data-model": "2.97.0",
-        "node-opcua-types": "2.97.0"
+        "@jacobq/node-opcua-data-model": "2.97.0",
+        "@jacobq/node-opcua-types": "2.97.0"
     },
     "devDependencies": {
-        "node-opcua-assert": "2.88.0",
+        "@jacobq/node-opcua-assert": "2.88.0",
         "should": "^13.2.3"
     },
     "author": "Etienne Rossignon",

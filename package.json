@@ -1,5 +1,5 @@
 {
-    "name": "node-opcua-mono-repo",
+    "name": "@jacobq/node-opcua-mono-repo",
     "private": true,
     "description": "pure nodejs OPCUA SDK",
     "homepage": "http://node-opcua.github.io/",
@@ -132,8 +132,8 @@
         "memfs": "^3.4.13",
         "mkdirp": "1.0.4",
         "mocha-clean": "^1.0.0",
-        "node-opcua-crypto": "^2.1.2",
-        "node-opcua-pki": "^3.0.2",
+        "@jacobq/node-opcua-crypto": "^2.1.2",
+        "@jacobq/node-opcua-pki": "^3.0.2",
         "object.values": "^1.1.6",
         "once": "^1.4.0",
         "pretty-ms": "^8.0.0",

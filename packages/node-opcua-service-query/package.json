@@ -1,5 +1,5 @@
 {
-    "name": "node-opcua-service-query",
+    "name": "@jacobq/node-opcua-service-query",
     "version": "2.97.0",
     "description": "pure nodejs OPCUA SDK - module -service-query",
     "scripts": {
@@ -11,7 +11,7 @@
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
     "dependencies": {
-        "node-opcua-types": "2.97.0"
+        "@jacobq/node-opcua-types": "2.97.0"
     },
     "author": "Etienne Rossignon",
     "license": "MIT",

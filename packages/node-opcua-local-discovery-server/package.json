@@ -1,11 +1,11 @@
 {
-    "name": "node-opcua-local-discovery-server",
+    "name": "@jacobq/node-opcua-local-discovery-server",
     "version": "2.97.0",
     "description": "pure nodejs OPCUA SDK - local-discovery-server",
     "bin": {
         "lds": "./bin/local-discovery-server.js",
         "local-discovery-server": "./bin/local-discovery-server.js",
-        "node-opcua-local-discovery-server": "./bin/local-discovery-server.js"
+        "@jacobq/node-opcua-local-discovery-server": "./bin/local-discovery-server.js"
     },
     "scripts": {
         "lint": "eslint source/**/*.ts",

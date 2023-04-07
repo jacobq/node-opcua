@@ -1,5 +1,5 @@
 {
-    "name": "node-opcua-chunkmanager",
+    "name": "@jacobq/node-opcua-chunkmanager",
     "version": "2.97.0",
     "description": "pure nodejs OPCUA SDK - module -chunkmanager",
     "main": "./dist/index.js",
@@ -11,16 +11,16 @@
         "lint": "eslint source/**/*.ts"
     },
     "dependencies": {
-        "node-opcua-assert": "2.88.0",
-        "node-opcua-basic-types": "2.97.0",
-        "node-opcua-binary-stream": "2.90.1",
-        "node-opcua-buffer-utils": "2.90.1",
-        "node-opcua-factory": "2.97.0",
-        "node-opcua-packet-assembler": "2.90.1"
+        "@jacobq/node-opcua-assert": "2.88.0",
+        "@jacobq/node-opcua-basic-types": "2.97.0",
+        "@jacobq/node-opcua-binary-stream": "2.90.1",
+        "@jacobq/node-opcua-buffer-utils": "2.90.1",
+        "@jacobq/node-opcua-factory": "2.97.0",
+        "@jacobq/node-opcua-packet-assembler": "2.90.1"
     },
     "devDependencies": {
         "@types/node": "18.15.0",
-        "node-opcua-debug": "2.90.1",
+        "@jacobq/node-opcua-debug": "2.90.1",
         "should": "^13.2.3",
         "source-map-support": "^0.5.21"
     },

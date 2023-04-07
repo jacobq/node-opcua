@@ -1,5 +1,5 @@
 {
-    "name": "node-opcua-service-endpoints",
+    "name": "@jacobq/node-opcua-service-endpoints",
     "version": "2.97.0",
     "description": "pure nodejs OPCUA SDK - module -service-endpoints",
     "main": "./dist/index.js",
@@ -10,7 +10,7 @@
         "build": "tsc -b"
     },
     "dependencies": {
-        "node-opcua-types": "2.97.0"
+        "@jacobq/node-opcua-types": "2.97.0"
     },
     "devDependencies": {
         "should": "^13.2.3"

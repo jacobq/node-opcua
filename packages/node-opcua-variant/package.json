@@ -1,5 +1,5 @@
 {
-    "name": "node-opcua-variant",
+    "name": "@jacobq/node-opcua-variant",
     "version": "2.97.0",
     "description": "pure nodejs OPCUA SDK - module -variant",
     "main": "./dist/index.js",
@@ -12,25 +12,25 @@
         "clean": "npx rimraf node_modules dist *.tsbuildinfo"
     },
     "dependencies": {
-        "node-opcua-assert": "2.88.0",
-        "node-opcua-basic-types": "2.97.0",
-        "node-opcua-binary-stream": "2.90.1",
-        "node-opcua-data-model": "2.97.0",
-        "node-opcua-enum": "2.90.1",
-        "node-opcua-factory": "2.97.0",
-        "node-opcua-nodeid": "2.97.0",
-        "node-opcua-utils": "2.90.1"
+        "@jacobq/node-opcua-assert": "2.88.0",
+        "@jacobq/node-opcua-basic-types": "2.97.0",
+        "@jacobq/node-opcua-binary-stream": "2.90.1",
+        "@jacobq/node-opcua-data-model": "2.97.0",
+        "@jacobq/node-opcua-enum": "2.90.1",
+        "@jacobq/node-opcua-factory": "2.97.0",
+        "@jacobq/node-opcua-nodeid": "2.97.0",
+        "@jacobq/node-opcua-utils": "2.90.1"
     },
     "devDependencies": {
         "@types/lodash": "4.14.191",
         "@types/underscore": "^1.11.4",
         "lodash": "4.17.21",
-        "node-opcua-benchmarker": "2.90.1",
-        "node-opcua-debug": "2.90.1",
-        "node-opcua-extension-object": "2.97.0",
-        "node-opcua-numeric-range": "2.97.0",
-        "node-opcua-packet-analyzer": "2.97.0",
-        "node-opcua-status-code": "2.90.1",
+        "@jacobq/node-opcua-benchmarker": "2.90.1",
+        "@jacobq/node-opcua-debug": "2.90.1",
+        "@jacobq/node-opcua-extension-object": "2.97.0",
+        "@jacobq/node-opcua-numeric-range": "2.97.0",
+        "@jacobq/node-opcua-packet-analyzer": "2.97.0",
+        "@jacobq/node-opcua-status-code": "2.90.1",
         "should": "^13.2.3",
         "underscore": "^1.13.6"
     },

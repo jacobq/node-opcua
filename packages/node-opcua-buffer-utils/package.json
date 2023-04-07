@@ -1,5 +1,5 @@
 {
-    "name": "node-opcua-buffer-utils",
+    "name": "@jacobq/node-opcua-buffer-utils",
     "version": "2.90.1",
     "description": "pure nodejs OPCUA SDK - module -buffer-utils",
     "main": "./dist/index.js",
@@ -13,7 +13,7 @@
     "author": "Etienne Rossignon",
     "license": "MIT",
     "devDependencies": {
-        "node-opcua-benchmarker": "2.90.1"
+        "@jacobq/node-opcua-benchmarker": "2.90.1"
     },
     "repository": {
         "type": "git",

@@ -1,5 +1,5 @@
 {
-    "name": "node-opcua-assert",
+    "name": "@jacobq/node-opcua-assert",
     "version": "2.88.0",
     "description": "pure nodejs OPCUA SDK - module -assert",
     "main": "./dist/index.js",

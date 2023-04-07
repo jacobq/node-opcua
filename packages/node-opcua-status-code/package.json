@@ -1,5 +1,5 @@
 {
-    "name": "node-opcua-status-code",
+    "name": "@jacobq/node-opcua-status-code",
     "version": "2.90.1",
     "description": "pure nodejs OPCUA SDK - module -status-code",
     "main": "./dist/index.js",
@@ -12,8 +12,8 @@
         "test": "mocha"
     },
     "dependencies": {
-        "node-opcua-assert": "2.88.0",
-        "node-opcua-binary-stream": "2.90.1"
+        "@jacobq/node-opcua-assert": "2.88.0",
+        "@jacobq/node-opcua-binary-stream": "2.90.1"
     },
     "devDependencies": {
         "should": "^13.2.3"

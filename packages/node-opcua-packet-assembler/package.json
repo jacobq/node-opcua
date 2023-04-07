@@ -1,5 +1,5 @@
 {
-    "name": "node-opcua-packet-assembler",
+    "name": "@jacobq/node-opcua-packet-assembler",
     "version": "2.90.1",
     "description": "pure nodejs OPCUA SDK - module -packet-assembler",
     "main": "./dist/index.js",
@@ -12,8 +12,8 @@
     "author": "Etienne Rossignon",
     "license": "MIT",
     "dependencies": {
-        "node-opcua-assert": "2.88.0",
-        "node-opcua-debug": "2.90.1"
+        "@jacobq/node-opcua-assert": "2.88.0",
+        "@jacobq/node-opcua-debug": "2.90.1"
     },
     "devDependencies": {
         "should": "^13.2.3",
