@@ -285,6 +285,8 @@ export function _addMultiStateValueDiscrete<T, DT extends DataType>(
 }
 
 export function validateDataType(dataTypeValue: any): void {
+    // Only DataTypes that can be represented with EnumValues are allowed for Variables of
+    // MultiStateValueDiscreteType. These are Integers up to 64 Bits (signed and unsigned).
     const validTypes = [
         DataType.UInt64,
         DataType.Int64,
@@ -295,7 +297,9 @@ export function validateDataType(dataTypeValue: any): void {
         DataType.Byte,
         DataType.Byte,
         DataType.SByte,
-        26 /*Number*/
+        26, /* DataType.Number */
+        27, /* DataType.Integer */
+        28, /* DataType.UInteger */
     ];
 
     if (typeof dataTypeValue !== "number" || validTypes.indexOf(dataTypeValue) < 0) {

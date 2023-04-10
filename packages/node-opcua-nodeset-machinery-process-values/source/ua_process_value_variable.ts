@@ -1,5 +1,5 @@
 // ----- this file has been automatically generated - do not edit
-import { DataType, Variant } from "node-opcua-variant"
+import { DataType } from "node-opcua-variant"
 import { EUInformation } from "node-opcua-data-access"
 import { DTRange } from "node-opcua-nodeset-ua/source/dt_range"
 import { UAAnalogUnit } from "node-opcua-nodeset-ua/source/ua_analog_unit"
@@ -14,7 +14,7 @@ import { UAAnalogSignalVariable, UAAnalogSignalVariable_Base } from "node-opcua-
  * |nodeClass       |VariableType                                      |
  * |typedDefinition |21:ProcessValueVariableType ns=21;i=2002          |
  * |dataType        |Variant                                           |
- * |dataType Name   |Variant ns=0;i=26                                 |
+ * |dataType Name   |number ns=0;i=26                                  |
  * |isAbstract      |false                                             |
  */
 export interface UAProcessValueVariable_Base<T, DT extends DataType>  extends UAAnalogSignalVariable_Base<T, DT> {
@@ -22,22 +22,22 @@ export interface UAProcessValueVariable_Base<T, DT extends DataType>  extends UA
      * highHighLimit
      * Defines the absolute high high limit
      */
-    highHighLimit?: UAAnalogUnit<any, any>;
+    highHighLimit?: UAAnalogUnit<number, DataType.Number>;
     /**
      * highLimit
      * Defines the absolute high limit
      */
-    highLimit?: UAAnalogUnit<any, any>;
+    highLimit?: UAAnalogUnit<number, DataType.Number>;
     /**
      * lowLimit
      * Defines the absolute low limit
      */
-    lowLimit?: UAAnalogUnit<any, any>;
+    lowLimit?: UAAnalogUnit<number, DataType.Number>;
     /**
      * lowLowLimit
      * Defines the absolute low low limit
      */
-    lowLowLimit?: UAAnalogUnit<any, any>;
+    lowLowLimit?: UAAnalogUnit<number, DataType.Number>;
     /**
      * percentageValue
      * Provides the process value in percentage.

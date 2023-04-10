@@ -1,6 +1,6 @@
 // ----- this file has been automatically generated - do not edit
 import { UAObject, UAProperty } from "node-opcua-address-space-base"
-import { DataType, Variant } from "node-opcua-variant"
+import { DataType } from "node-opcua-variant"
 import { UABaseDataVariable } from "node-opcua-nodeset-ua/source/ua_base_data_variable"
 /**
  * Represents an acoustic signal.
@@ -25,7 +25,7 @@ export interface UAAcousticSignal_Base {
      * StackElementAcousticType index into this number
      * using the OperationMode Property.
      */
-    numberInList: UAProperty<any, any>;
+    numberInList: UAProperty<number, DataType.UInteger>;
 }
 export interface UAAcousticSignal extends UAObject, UAAcousticSignal_Base {
 }

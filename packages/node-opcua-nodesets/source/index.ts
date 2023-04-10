@@ -27,6 +27,7 @@ export enum NodesetName {
     packML = "packML",
     padim = "padim",
     robotics = "robotics",
+    scales = "scales",
     tightening = "tightening",
     woodWorking = "woodWorking",
 }
@@ -104,6 +105,7 @@ export const allNodesetMeta: NodesetMeta[] =
         [NodesetName.padim, "padim", "http://opcfoundation.org/UA/PADIM/", "Opc.Ua.PADIM.NodeSet2.xml", [NodesetName.irdi, NodesetName.di]],
         [NodesetName.machineryProcessValues, "machinery-process-values", "http://opcfoundation.org/UA/Machinery/ProcessValues/", "Opc.Ua.Machinery.ProcessValues.NodeSet2.xml", [NodesetName.di, NodesetName.irdi, NodesetName.padim]],
         [NodesetName.machineryResult, "machinery-result", "http://opcfoundation.org/UA/Machinery/Result/", "Opc.Ua.Machinery.Result.NodeSet2.xml", []],
+        [NodesetName.scales, "scales", "http://opcfoundation.org/UA/Scales", "Opc.Ua.Scales.NodeSet2.xml", []],
     ])
     .map(([name, packageSuffix, uri, xmlFileName, _requiredModels, _shouldExcludeFromBuild = false]) =>
         ({

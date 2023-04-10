@@ -1,6 +1,6 @@
 // ----- this file has been automatically generated - do not edit
 import { UAProperty } from "node-opcua-address-space-base"
-import { DataType, Variant } from "node-opcua-variant"
+import { DataType } from "node-opcua-variant"
 import { EUInformation } from "node-opcua-data-access"
 import { UAString } from "node-opcua-basic-types"
 import { DTRange } from "node-opcua-nodeset-ua/source/dt_range"
@@ -27,8 +27,8 @@ export interface UAGasMix_gas_2 extends Omit<UABaseMaterial, "identifier"|"locat
 export interface UAGasMix_Base extends UABaseMaterial_Base {
     gas_1?: UAGasMix_gas_1;
     gas_2?: UAGasMix_gas_2;
-    gasFilling?: UAAnalogUnit<any, any>;
-    mixingRatio?: UAAnalogUnit<any, any>;
+    gasFilling?: UAAnalogUnit<number, DataType.Number>;
+    mixingRatio?: UAAnalogUnit<number, DataType.Number>;
 }
 export interface UAGasMix extends UABaseMaterial, UAGasMix_Base {
 }

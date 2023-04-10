@@ -1,6 +1,6 @@
 // ----- this file has been automatically generated - do not edit
 import { UAObject } from "node-opcua-address-space-base"
-import { DataType, Variant, VariantOptions } from "node-opcua-variant"
+import { DataType, VariantOptions } from "node-opcua-variant"
 import { UInt32, UAString } from "node-opcua-basic-types"
 import { UADataItem } from "node-opcua-nodeset-ua/source/ua_data_item"
 import { UAAnalogItem } from "node-opcua-nodeset-ua/source/ua_analog_item"
@@ -66,7 +66,7 @@ export interface UAStream_parameterSet extends UAObject { // Object
        * Indicates which Execution cycle subcode is in
        * progress
        */
-      executionCycleSubcode: UAMultiStateDiscrete<any, any>;
+      executionCycleSubcode: UAMultiStateDiscrete<number, DataType.UInteger>;
       /**
        * progress
        * Indicates the progress of an acquisition in terms
@@ -232,7 +232,7 @@ export interface UAStream_acquisitionStatus extends UAFunctionalGroup { // Objec
        * Indicates which Execution cycle subcode is in
        * progress
        */
-      executionCycleSubcode: UAMultiStateDiscrete<any, any>;
+      executionCycleSubcode: UAMultiStateDiscrete<number, DataType.UInteger>;
       /**
        * progress
        * Indicates the progress of an acquisition in terms

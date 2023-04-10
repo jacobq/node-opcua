@@ -27,5 +27,8 @@ export enum DataType {
     ExtensionObject = 22,
     DataValue = 23,
     Variant = 24,
-    DiagnosticInfo = 25
+    DiagnosticInfo = 25,
+    Number = 26,
+    Integer = 27,
+    UInteger = 28,
 }

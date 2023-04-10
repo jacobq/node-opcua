@@ -1,6 +1,6 @@
 // ----- this file has been automatically generated - do not edit
 import { UAProperty } from "node-opcua-address-space-base"
-import { DataType, Variant } from "node-opcua-variant"
+import { DataType } from "node-opcua-variant"
 import { UABaseInterface, UABaseInterface_Base } from "node-opcua-nodeset-ua/source/ua_base_interface"
 /**
  * Interface defining counters for the duration of
@@ -66,7 +66,7 @@ export interface UAIOperationCounter_Base extends UABaseInterface_Base {
      * Device and shall not be reset when the Device is
      * restarted.
      */
-    operationCycleCounter?: UAProperty<any, any>;
+    operationCycleCounter?: UAProperty<number, DataType.UInteger>;
 }
 export interface UAIOperationCounter extends UABaseInterface, UAIOperationCounter_Base {
 }

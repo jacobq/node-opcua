@@ -1,6 +1,6 @@
 // ----- this file has been automatically generated - do not edit
 import { UAProperty } from "node-opcua-address-space-base"
-import { DataType, Variant } from "node-opcua-variant"
+import { DataType } from "node-opcua-variant"
 import { UABaseInterface, UABaseInterface_Base } from "./ua_base_interface"
 /**
  * |                |                                                  |
@@ -11,7 +11,7 @@ import { UABaseInterface, UABaseInterface_Base } from "./ua_base_interface"
  * |isAbstract      |true                                              |
  */
 export interface UAIOrderedObject_Base extends UABaseInterface_Base {
-    numberInList: UAProperty<any, any>;
+    numberInList: UAProperty<number, DataType.Number>;
 }
 export interface UAIOrderedObject extends UABaseInterface, UAIOrderedObject_Base {
 }

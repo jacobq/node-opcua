@@ -1,6 +1,6 @@
 // ----- this file has been automatically generated - do not edit
 import { UAProperty } from "node-opcua-address-space-base"
-import { DataType, Variant } from "node-opcua-variant"
+import { DataType } from "node-opcua-variant"
 import { EUInformation } from "node-opcua-data-access"
 import { UAString } from "node-opcua-basic-types"
 import { UAAnalogUnit } from "node-opcua-nodeset-ua/source/ua_analog_unit"
@@ -17,17 +17,17 @@ import { UABaseMaterial, UABaseMaterial_Base } from "./ua_base_material"
  * |isAbstract      |false                                             |
  */
 export interface UAGlass_Base extends UABaseMaterial_Base {
-    absorption?: UAAnalogUnit<any, any>;
+    absorption?: UAAnalogUnit<number, DataType.Number>;
     coatingClass: UAProperty<EnumCoatingClass, DataType.Int32>;
-    coatingEmessivity?: UAAnalogUnit<any, any>;
+    coatingEmessivity?: UAAnalogUnit<number, DataType.Number>;
     coatingSubClass?: UAProperty<UAString, DataType.String>;
-    electricalConductivity?: UAAnalogUnit<any, any>;
-    orientation: UAProperty<any, any>;
-    reflection?: UAAnalogUnit<any, any>;
+    electricalConductivity?: UAAnalogUnit<number, DataType.Number>;
+    orientation: UAProperty<number, DataType.Number>;
+    reflection?: UAAnalogUnit<number, DataType.Number>;
     significantSide: UAProperty<EnumSignificantSide, DataType.Int32>;
     structureAlignment: UAProperty<EnumStructureAlignment, DataType.Int32>;
     structureClass: UAProperty<UAString, DataType.String>;
-    transmission?: UAAnalogUnit<any, any>;
+    transmission?: UAAnalogUnit<number, DataType.Number>;
     x: UAAnalogUnit<number, DataType.Double>;
     y: UAAnalogUnit<number, DataType.Double>;
 }

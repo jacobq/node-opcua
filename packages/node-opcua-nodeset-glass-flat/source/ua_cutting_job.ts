@@ -1,6 +1,6 @@
 // ----- this file has been automatically generated - do not edit
 import { UAProperty } from "node-opcua-address-space-base"
-import { DataType, Variant } from "node-opcua-variant"
+import { DataType } from "node-opcua-variant"
 import { LocalizedText } from "node-opcua-data-model"
 import { UAString } from "node-opcua-basic-types"
 import { UAAnalogUnit } from "node-opcua-nodeset-ua/source/ua_analog_unit"
@@ -21,20 +21,20 @@ export interface UACuttingJob_$InputMaterial$ extends Omit<UABaseMaterial, "$des
       z?: UAAnalogUnit<number, DataType.Double>;
 }
 export interface UACuttingJob_$OutputMaterial$ extends Omit<UAGlass, "absorption"|"coatingClass"|"coatingEmessivity"|"$description"|"electricalConductivity"|"identifier"|"location"|"materialIdentifier"|"orientation"|"reflection"|"significantSide"|"structureAlignment"|"structureClass"|"transmission"|"weight"|"x"|"y"|"z"> { // Object
-      absorption: UAAnalogUnit<any, any>;
+      absorption: UAAnalogUnit<number, DataType.Number>;
       coatingClass: UAProperty<EnumCoatingClass, DataType.Int32>;
-      coatingEmessivity: UAAnalogUnit<any, any>;
+      coatingEmessivity: UAAnalogUnit<number, DataType.Number>;
       "$description"?: UAProperty<LocalizedText, DataType.LocalizedText>;
-      electricalConductivity: UAAnalogUnit<any, any>;
+      electricalConductivity: UAAnalogUnit<number, DataType.Number>;
       identifier: UAProperty<UAString, DataType.String>;
       location: UAProperty<UAString, DataType.String>;
       materialIdentifier: UAProperty<UAString, DataType.String>;
-      orientation: UAProperty<any, any>;
-      reflection: UAAnalogUnit<any, any>;
+      orientation: UAProperty<number, DataType.Number>;
+      reflection: UAAnalogUnit<number, DataType.Number>;
       significantSide: UAProperty<EnumSignificantSide, DataType.Int32>;
       structureAlignment: UAProperty<EnumStructureAlignment, DataType.Int32>;
       structureClass: UAProperty<UAString, DataType.String>;
-      transmission: UAAnalogUnit<any, any>;
+      transmission: UAAnalogUnit<number, DataType.Number>;
       weight?: UAAnalogUnit<number, DataType.Double>;
       x?: UAAnalogUnit<number, DataType.Double>;
       y?: UAAnalogUnit<number, DataType.Double>;

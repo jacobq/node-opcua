@@ -1,6 +1,6 @@
 // ----- this file has been automatically generated - do not edit
 import { UAMethod, UAProperty } from "node-opcua-address-space-base"
-import { DataType, Variant, VariantOptions } from "node-opcua-variant"
+import { DataType, VariantOptions } from "node-opcua-variant"
 import { LocalizedText, QualifiedName } from "node-opcua-data-model"
 import { EUInformation } from "node-opcua-data-access"
 import { NodeId } from "node-opcua-nodeid"
@@ -24,22 +24,22 @@ export interface UAProcessValue_analogSignal<T, DT extends DataType> extends Omi
        * highHighLimit
        * Defines the absolute high high limit
        */
-      highHighLimit?: UAAnalogUnit<any, any>;
+      highHighLimit?: UAAnalogUnit<number, DataType.Number>;
       /**
        * highLimit
        * Defines the absolute high limit
        */
-      highLimit?: UAAnalogUnit<any, any>;
+      highLimit?: UAAnalogUnit<number, DataType.Number>;
       /**
        * lowLimit
        * Defines the absolute low limit
        */
-      lowLimit?: UAAnalogUnit<any, any>;
+      lowLimit?: UAAnalogUnit<number, DataType.Number>;
       /**
        * lowLowLimit
        * Defines the absolute low low limit
        */
-      lowLowLimit?: UAAnalogUnit<any, any>;
+      lowLowLimit?: UAAnalogUnit<number, DataType.Number>;
       /**
        * percentageValue
        * Provides the process value in percentage.
@@ -67,7 +67,7 @@ export interface UAProcessValue_Base extends UAAnalogSignal_Base {
      * analogSignal
      * The process value.
      */
-    analogSignal: UAProcessValue_analogSignal<any, any>;
+    analogSignal: UAProcessValue_analogSignal<number, DataType.Number>;
     /**
      * deviationAlarm
      * Becomes active, when the process values derivates
@@ -84,7 +84,7 @@ export interface UAProcessValue_Base extends UAAnalogSignal_Base {
      * The desired value, may or may not be controlled
      * by the server.
      */
-    processValueSetpoint?: UAProcessValueSetpointVariable<any, any>;
+    processValueSetpoint?: UAProcessValueSetpointVariable<number, DataType.Number>;
     /**
      * status
      * Indicates if a limit has been reached.

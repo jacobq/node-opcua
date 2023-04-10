@@ -1,6 +1,6 @@
 // ----- this file has been automatically generated - do not edit
 import { UAMethod } from "node-opcua-address-space-base"
-import { DataType, Variant, VariantOptions } from "node-opcua-variant"
+import { DataType, VariantOptions } from "node-opcua-variant"
 import { EUInformation } from "node-opcua-data-access"
 import { UAString } from "node-opcua-basic-types"
 import { DTRange } from "node-opcua-nodeset-ua/source/dt_range"
@@ -16,7 +16,7 @@ import { UAAnalogSignalVariable } from "./ua_analog_signal_variable"
  */
 export interface UAAnalogSignal_Base extends UASignal_Base {
     zeroPointAdjustment?: UAMethod;
-    analogSignal: UAAnalogSignalVariable<any, any>;
+    analogSignal: UAAnalogSignalVariable<number, DataType.Number>;
 }
 export interface UAAnalogSignal extends UASignal, UAAnalogSignal_Base {
 }

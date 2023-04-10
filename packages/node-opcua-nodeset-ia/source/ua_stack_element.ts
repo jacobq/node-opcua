@@ -1,6 +1,6 @@
 // ----- this file has been automatically generated - do not edit
 import { UAObject, UAProperty } from "node-opcua-address-space-base"
-import { DataType, Variant } from "node-opcua-variant"
+import { DataType } from "node-opcua-variant"
 /**
  * Base class for elements in a stacklight.
  *
@@ -25,7 +25,7 @@ export interface UAStackElement_Base {
      * Enumerate the stacklight elements counting
      * upwards beginning from the base of the stacklight.
      */
-    numberInList: UAProperty<any, any>;
+    numberInList: UAProperty<number, DataType.UInteger>;
     /**
      * signalOn
      * Indicates if the signal emitted by the stack
